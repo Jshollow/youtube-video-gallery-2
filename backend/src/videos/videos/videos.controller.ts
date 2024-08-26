@@ -108,4 +108,9 @@ export class VideosController {
   get(): Video[] {
     return testData;
   }
+
+  @Post()
+  post(): Video {
+    return testData[0];
+  }
 }
