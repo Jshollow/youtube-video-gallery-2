@@ -10,6 +10,9 @@ export class VideoDto {
     @IsUrl()
     url: String;
 
+    @IsUrl() 
+    thumbnail: String;
+
     createdAt: String;
 
     updatedAt: String;
