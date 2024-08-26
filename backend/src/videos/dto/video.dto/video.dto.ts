@@ -2,18 +2,14 @@ import { IsString, IsUrl } from "class-validator";
 
 export class VideoDto {
     @IsString() 
-    name: String; 
+    name: string; 
 
     @IsString() 
-    artist: String; 
+    artist: string; 
 
     @IsUrl()
-    url: String;
+    url: string;
 
     @IsUrl() 
-    thumbnail: String;
-
-    createdAt: String;
-
-    updatedAt: String;
+    thumbnail: string;
 }
